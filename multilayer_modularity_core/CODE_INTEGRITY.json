@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "scope": "Computation core; scheduling and automatic tree execution omitted.",
+  "copied_files": [
+    {
+      "file": "recursive_bimat_worker.m",
+      "source": "supplement_recursive_bimat/recursive_bimat_worker.m",
+      "source_sha256": "56cbb9a7d6a6086f904c3eff9226e3c9a26649309e356b3a76faa06b2526f654",
+      "published_sha256": "56cbb9a7d6a6086f904c3eff9226e3c9a26649309e356b3a76faa06b2526f654",
+      "byte_identical": true
+    },
+    {
+      "file": "root_null_worker.m",
+      "source": "supplement_recursive_bimat/root_null_worker.m",
+      "source_sha256": "df5441c92902cbc1e50406f7f9b7bd44080f36d07a141691e6d85956f3c017e3",
+      "published_sha256": "df5441c92902cbc1e50406f7f9b7bd44080f36d07a141691e6d85956f3c017e3",
+      "byte_identical": true
+    },
+    {
+      "file": "NullAdaptiveBrim.m",
+      "source": "supplement_recursive_bimat/NullAdaptiveBrim.m",
+      "source_sha256": "4cb7bd79944951304378a212551b22fb8058d839e0bf6a7cf9e7c87eb7e956ec",
+      "published_sha256": "4cb7bd79944951304378a212551b22fb8058d839e0bf6a7cf9e7c87eb7e956ec",
+      "byte_identical": true
+    },
+    {
+      "file": "bimat_null_modularity.m",
+      "source": "supplement_recursive_bimat/bimat_null_modularity.m",
+      "source_sha256": "65874a82b0bb1dcc2cf47f91a27de3f23b957ebd9ba4cefe3908c143eaf1601f",
+      "published_sha256": "65874a82b0bb1dcc2cf47f91a27de3f23b957ebd9ba4cefe3908c143eaf1601f",
+      "byte_identical": true
+    },
+    {
+      "file": "bimat_nestedness_fast.m",
+      "source": "supplement_recursive_bimat/bimat_nestedness_fast.m",
+      "source_sha256": "fdb1b8bda4034e02ce7cfa43b6b2b6e8d111eb08d158bc325a8400248e6505c0",
+      "published_sha256": "fdb1b8bda4034e02ce7cfa43b6b2b6e8d111eb08d158bc325a8400248e6505c0",
+      "byte_identical": true
+    },
+    {
+      "file": "bimat_validate_fast_null.m",
+      "source": "supplement_recursive_bimat/bimat_validate_fast_null.m",
+      "source_sha256": "c0a8c8e04ddd8fff30641afcaad1d38389cecac7f03434f950cb6683ddedfd14",
+      "published_sha256": "c0a8c8e04ddd8fff30641afcaad1d38389cecac7f03434f950cb6683ddedfd14",
+      "byte_identical": true
+    },
+    {
+      "file": "root_null_exports.py",
+      "source": "supplement_recursive_bimat/root_null_exports.py",
+      "source_sha256": "d7cb5c789ccd7b49a9e471e5839733901becd3c03efa5e8d34fec8639856d607",
+      "published_sha256": "d7cb5c789ccd7b49a9e471e5839733901becd3c03efa5e8d34fec8639856d607",
+      "byte_identical": true
+    }
+  ],
+  "extracted_definitions": [
+    {
+      "name": "WorkflowError",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "a023a8f2d623ef1b689036ae0b61d7e994a0b1ac77167bf294d33ca80d1277a1",
+      "target_segment_sha256": "a023a8f2d623ef1b689036ae0b61d7e994a0b1ac77167bf294d33ca80d1277a1",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "read_json",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "675d0dfea43551e65acacfb420ca59c67cb47d808349adbe84f4c0ab84b504c8",
+      "target_segment_sha256": "675d0dfea43551e65acacfb420ca59c67cb47d808349adbe84f4c0ab84b504c8",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "read_network",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "b2bf5e69c7d423264a70076fbe22a7573b7a7688bc56b9b30264b0027b67a260",
+      "target_segment_sha256": "b2bf5e69c7d423264a70076fbe22a7573b7a7688bc56b9b30264b0027b67a260",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "write_network",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "7bc8c45457b8e9ee8aa7bee9efb57e6627516aadd565bbf38fd44efa64f34ab3",
+      "target_segment_sha256": "7bc8c45457b8e9ee8aa7bee9efb57e6627516aadd565bbf38fd44efa64f34ab3",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "read_module_edges",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "aca4e291b20c5d424448fdb86a5caa5530e691eb5733fdec3353d00a6ef06e24",
+      "target_segment_sha256": "aca4e291b20c5d424448fdb86a5caa5530e691eb5733fdec3353d00a6ef06e24",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "significance_decision",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "ee91702d7726af54682509c979ace43b585e7cdfdfa366f64ee935a92012a1e4",
+      "target_segment_sha256": "ee91702d7726af54682509c979ace43b585e7cdfdfa366f64ee935a92012a1e4",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "significant_model_count",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "378d7248761c97ff105ad866953dbec9bb4b37605fa76d0703a08e5da4e1d05f",
+      "target_segment_sha256": "378d7248761c97ff105ad866953dbec9bb4b37605fa76d0703a08e5da4e1d05f",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "validate_node_result",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "b006acb592970ce61fe55ae41de8f03e179fbbad881dabb6bce4517ce1e4841e",
+      "target_segment_sha256": "b006acb592970ce61fe55ae41de8f03e179fbbad881dabb6bce4517ce1e4841e",
+      "source_identical": true,
+      "ast_identical": true
+    },
+    {
+      "name": "plan_children",
+      "source": "supplement_recursive_bimat/recursive_bimat.py",
+      "target": "core_rules.py",
+      "source_segment_sha256": "21aba226b4460468c105b58c08d7d75523842af20fc8f4e2d58b47c6dc77dde1",
+      "target_segment_sha256": "21aba226b4460468c105b58c08d7d75523842af20fc8f4e2d58b47c6dc77dde1",
+      "source_identical": true,
+      "ast_identical": true
+    }
+  ],
+  "configuration": {
+    "file": "analysis_config.json",
+    "source": "supplement_recursive_bimat/recursive_bimat_config.json",
+    "scientific_keys": [
+      "alpha",
+      "max_depth",
+      "min_child_cols",
+      "min_child_rows",
+      "min_significant_models",
+      "min_size_from_level",
+      "null_models",
+      "null_nodf_block_size",
+      "null_replicates",
+      "optimization_trials",
+      "run_nestedness",
+      "run_ntc",
+      "run_root_null",
+      "seed",
+      "write_matrix"
+    ],
+    "values_identical": true
+  },
+  "external_dependency_reference": {
+    "name": "BiMat",
+    "note": "Reference source hashes only; external library files are not redistributed.",
+    "files": [
+      {
+        "file": "main/Bipartite.m",
+        "sha256": "6de810ffe00663eaf76e7a5dc9c4b6a772c6cedf232b5642aa17ecdb711cc462"
+      },
+      {
+        "file": "main/Options.m",
+        "sha256": "d136f67d3c5d8e34dc247ac24adba721e4ffbd51cf6b80b93bf9bb3faeeaa1d5"
+      },
+      {
+        "file": "base/MatrixFunctions.m",
+        "sha256": "668756301eeadea3875d2f67138f348dd929249fb16cf7def37149054933d9ae"
+      },
+      {
+        "file": "community/AdaptiveBrim.m",
+        "sha256": "00e1a42703a8296767039a5b97d0cc23899301c5bf818d64bf1da219dfa28b46"
+      },
+      {
+        "file": "community/BipartiteModularity.m",
+        "sha256": "2b7bcf864edfa9fc93c716af9ed86824245f0e20ec0a9758b9d68897832355ef"
+      },
+      {
+        "file": "statistics/NullModels.m",
+        "sha256": "db13ac1c352b8aa28f4017d85b669e27bf01d70b8c9280ce74ed535897ed0cd7"
+      },
+      {
+        "file": "nestedness/NestednessNODF.m",
+        "sha256": "5c562bceadce040f0ebf1da0c97bb1537a62db6c6cf83035890ccc926595f8ea"
+      },
+      {
+        "file": "nestedness/NODF.m",
+        "sha256": "51ad81d412c07a4b2d482d2be68e8d3d7fe5950e2eab17c68dd2c0110af4e16c"
+      },
+      {
+        "file": "nestedness/Nestedness.m",
+        "sha256": "ef770a5e88948835fdd02739f6c8bba97387bff4cc416bf4e2a81d17c8cb608b"
+      }
+    ]
+  },
+  "verification": {
+    "copied_file_byte_comparison": "passed",
+    "extracted_source_and_ast_comparison": "passed",
+    "scientific_configuration_comparison": "passed",
+    "python_syntax": "passed",
+    "private_path_and_scheduler_command_scan": "passed",
+    "python_example_job_preparation": "passed",
+    "root_observation_text_validation": "passed",
+    "original_seed_and_model_index_preservation": "passed",
+    "significance_and_child_selection_cases": "passed",
+    "matlab_numerical_execution": "not_run"
+  },
+  "new_support_files": [
+    {
+      "file": "examples/prepare_jobs.py",
+      "purpose": "Input preparation only; no scientific calculation.",
+      "sha256": "1d11897fa15c9524bbe5fe75431d6ecbd5ee39cba989859932dd23e02e5e5596"
+    },
+    {
+      "file": "README.md",
+      "purpose": "Public documentation: requirements, usage, methods, outputs and BiMat citation.",
+      "sha256": "be6803bfb264d1b3623b3f8b8d630df4be7c443c93f8b399bf2fcb2eeb5e3fb5"
+    },
+    {
+      "file": "examples/network.tsv",
+      "purpose": "Artificial edge list.",
+      "sha256": "0536b8f15987d1bc9906bed6210b59f17d663e34a9b60a387f42f7566e199db4"
+    },
+    {
+      "file": ".gitignore",
+      "purpose": "Exclude generated outputs and caches.",
+      "sha256": "7a43a1d9354a1a5050d6005f68ca25fcdbc96d144e9bc5e0e9867ced9914a48d"
+    }
+  ]
+}

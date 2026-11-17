@@ -1,0 +1,17 @@
+{
+  "optimization_trials": 20,
+  "null_replicates": 100,
+  "null_models": ["EQUIPROBABLE", "AVERAGE", "AVERAGE_COLS", "AVERAGE_ROWS", "FIXED"],
+  "alpha": 0.05,
+  "min_significant_models": 2,
+  "min_child_rows": 1,
+  "min_child_cols": 1,
+  "min_size_from_level": 1,
+  "seed": 2026,
+  "run_root_null": false,
+  "run_nestedness": true,
+  "run_ntc": false,
+  "write_matrix": true,
+  "max_depth": null,
+  "null_nodf_block_size": 256
+}
