@@ -153,9 +153,15 @@ The repository contains analysis code and illustrative examples. Supply analysis
 
 See the component READMEs for output schemas and interpretation.
 
-## Citation
+## Citation and references
 
 When using this code, cite the archived software release and its version-specific DOI once available. For analyses using BiMat, also cite:
 
 Flores CO, Poisot T, Valverde S, et al. (2016). BiMat: a MATLAB package to facilitate the analysis of bipartite networks. *Methods in Ecology and Evolution*, 7(1), 127–132. https://doi.org/10.1111/2041-210X.12458
+
+For methodological background on genomic-region permutation tests and circular randomization, see:
+
+Gel B, et al. (2016). regioneR: an R/Bioconductor package for the association analysis of genomic regions based on permutation tests. *Bioinformatics*, 32(2), 289–291. https://doi.org/10.1093/bioinformatics/btv562
+
+The functional enrichment script in this repository implements its circular permutation procedure in Python/NumPy; regioneR is a methodological reference, not a software dependency.
 
